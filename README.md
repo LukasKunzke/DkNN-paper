@@ -96,7 +96,7 @@ To reduce computational demands without compromising accuracy by selectively app
    - DkNN accuracy improved in M5 (92.23%) compared to M3 (86.45%).
    - The selective model achieved slightly higher accuracy than the base DNN, whereas the original model performed significantly worse.
 
-![Reliability Graphs M5](images/Pasted image 20241119204032.png)
+![Reliability Graphs M5](images/reliabilitygraphm5.png)
 **Reliability Graphs**: The x-axis bins samples based on metrics like confidence, credibility, accuracy, or combined C&C score. The y-axes show accuracy per bin (line) and the number of samples per bin (bars). A monotonic increase in accuracy with rising confidence indicates good calibration, while concentration near 0% and 100% signifies sharpness.
 
 3. **Confidence Metrics**:
@@ -105,7 +105,7 @@ To reduce computational demands without compromising accuracy by selectively app
    - When compared to M3’s confidence metrics, M5’s performed roughly on par (see comparison in the previous and next graphs).
 
 
-![Reliability Graphs M3](images/Pasted image 20241121110652.png)
+![Reliability Graphs M3](images/reliabilitygraphm3.png)
 
 ### Conclusion
 Selective application of kNN layers in M5 retained or enhanced accuracy and interpretability while drastically reducing computational overhead. 
